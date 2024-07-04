@@ -8,7 +8,7 @@ SELECT
     `State Code` AS state_code,
     Country AS country,
     Continent AS continent,
-    YEAR(Birthday) AS birth_year,
+    2024-YEAR(Birthday) AS age,
     MONTH(Birthday) AS birth_month
 FROM customers_copy;
 
